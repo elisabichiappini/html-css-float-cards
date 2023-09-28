@@ -17,6 +17,13 @@ Common
 
 body {
     font-family: 'Fredoka', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.name,
+.work,
+.mail {
+    padding: 3px;
 }
 
 /*
@@ -58,7 +65,7 @@ main {
 }
 
 .container-cards {
-    background-color: rgb(152, 79, 79);
+    /* background-color: rgb(171, 93, 93); */
     width: 100%;
 }
 
@@ -72,14 +79,16 @@ main {
     float: left;
     margin: 0 20px 20px;
     width: calc(100% / 3 - 40px);
-    background-color:chartreuse;
-    font-size: 12px;
+    background-color:rgb(0, 0, 0);
+    color: white;
+    font-size: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .photo {
     float: left;
-    width: 46px;
-    background-color: chocolate;
+    width: 70px;
+    background-color: rgb(54, 210, 30);
 }
 
 .photo  img{
@@ -91,7 +100,12 @@ main {
     float: left;
     width: 100%;
     width: calc(100% - 80px);
-    background-color: blanchedalmond;
     margin-left: 10px;
+}
+
+.mail{
+    color: rgb(50, 143, 219);
+    text-decoration: none;
+    font-size: 12px;
 }
 
