@@ -58,7 +58,7 @@ main {
 }
 
 .container-cards {
-    background-color: aquamarine;
+    background-color: rgb(255, 255, 255);
     width: 100%;
 }
 
@@ -78,9 +78,13 @@ main {
 
 .photo {
     float: left;
-    width: 50px;
+    width: 45px;
     background-color: chocolate;
+}
 
+.photo > img{
+    width: 100%;
+    display: block;
 }
 
 .work, .name, .mail {
