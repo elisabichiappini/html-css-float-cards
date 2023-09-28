@@ -78,19 +78,20 @@ main {
 
 .photo {
     float: left;
-    width: 45px;
+    width: 46px;
     background-color: chocolate;
 }
 
-.photo > img{
+.photo  img{
     width: 100%;
     display: block;
 }
 
-.work, .name, .mail {
-    float: right;
+.info{
+    float: left;
     width: 100%;
     width: calc(100% - 80px);
     background-color: blanchedalmond;
+    margin-left: 10px;
 }
 
