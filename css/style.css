@@ -29,16 +29,27 @@ h1{
     color: rgb(230, 56, 128);
 }
 
+/*
+--------------
+Header
+--------------
+*/
 
-main{
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-header{
+header {
     width: 100%;
     text-align: center;
     padding: 30px;
+}
+
+/*
+--------------
+Main
+--------------
+*/
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .container-text {
@@ -46,19 +57,36 @@ header{
     margin-bottom: 40px;
 }
 
-.container-cards{
+.container-cards {
     background-color: aquamarine;
+    width: 100%;
 }
 
-.cards{
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.cards {
     float: left;
     margin: 0 20px 20px;
     width: calc(100% / 3 - 40px);
     background-color:chartreuse;
+    font-size: 12px;
 }
 
-.clearfix::after{
-    content:"";
-    clear:both;
-    display: table;
+.photo {
+    float: left;
+    width: 50px;
+    background-color: chocolate;
+
 }
+
+.work, .name, .mail {
+    float: right;
+    width: 100%;
+    width: calc(100% - 80px);
+    background-color: blanchedalmond;
+}
+
