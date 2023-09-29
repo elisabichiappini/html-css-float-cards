@@ -86,19 +86,19 @@ main {
     background-color: rgb(54, 210, 30);
 }
 
-.photo  img{
+.photo  img {
     width: 100%;
     display: block;
 }
 
-.info{
+.info {
     float: left;
     width: 100%;
     width: calc(100% - 80px);
     margin-left: 10px;
 }
 
-.mail{
+.mail {
     color: rgb(50, 143, 219);
     text-decoration: none;
     font-size: 12px;
