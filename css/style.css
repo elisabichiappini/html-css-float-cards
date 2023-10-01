@@ -18,15 +18,8 @@ Common
 
 body {
     font-family: 'Fredoka', sans-serif;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
-
-/* .name,
-.work,
-.mail {
-    padding: 3px;
-} */
-
 
 /*
 --------------
@@ -34,7 +27,7 @@ Header
 --------------
 */
 
-#container {
+.container {
    max-width: 1000px;
    margin: 0 auto;   
 }
@@ -48,6 +41,7 @@ h1{
 .text {
     text-align: center;
     margin-bottom: 24px;
+    color: black;
 }
 
 /*
@@ -56,12 +50,47 @@ Main
 --------------
 */
 
-main {
-    max-width: 1000px;
-    margin: 0 auto;
+.team {
+    width: 100%;
+    background-color: aqua;
 }
 
-.container-text {
-    text-align: center;
-    margin-bottom: 40px;
+.clearfix::after{
+    content:'';
+    display: block;
+    clear: both;
+}
+
+.card {
+    float: left;
+    background-color: red;
+    width: calc(100% / 3 - 16px);
+    margin: 8px;
+}
+
+.photo-col {
+    float: left;
+    width: 110px;
+}
+
+.photo-col img{
+    width: 100%;
+    display: block;
+}
+
+.info-col {
+    float:left;
+    width: calc(100% - 110px);
+}
+
+.work, .mail {
+    display: block;
+    float: left;
+}
+
+h3,
+span,
+.mail {
+    padding-left: 8px;
+    clear: both;
 }
