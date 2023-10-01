@@ -52,7 +52,6 @@ Main
 
 .team {
     width: 100%;
-    background-color: aqua;
 }
 
 .clearfix::after{
@@ -63,7 +62,7 @@ Main
 
 .card {
     float: left;
-    background-color: red;
+    background-color: rgb(0, 0, 0);
     width: calc(100% / 3 - 16px);
     margin: 8px;
 }
@@ -81,16 +80,10 @@ Main
 .info-col {
     float:left;
     width: calc(100% - 110px);
+    padding: 24px 0 0 24px;
 }
 
-.work, .mail {
-    display: block;
-    float: left;
-}
-
-h3,
-span,
-.mail {
-    padding-left: 8px;
-    clear: both;
+a.mail {
+    color: rgb(95, 153, 223);
+    text-decoration: none;
 }
