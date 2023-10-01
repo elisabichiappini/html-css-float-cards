@@ -79,7 +79,7 @@ Main
 }
 
 .info-col {
-    float: right;
+    float: left;
     width: calc(100% - 110px);
     padding: 16px 0 0 16px;
 }
